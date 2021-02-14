@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #2b738d;
+    --secondary-color: #eac8ca;
+    --tertiary-color: #e49a8d;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--primary-color);
+}
+header nav {
+    margin: 10px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.75vw;
+    color: var(--primary-color);
+}
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: 	#8b8386;
+    border-radius: 15px;
+    text-shadow: none;
+}
+header {
+    padding: 20px 30px;
+    background-color: rgba(228, 154, 141,0.9);
+    text-align: center;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+.hero {
+    background-image: url("../images/seattle.jpg");
+    background-size: cover;
+    background-position: 80% 0%;
+    height: 480px;
+}
+.left {
+    padding: 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.title {
+    flex: 0.2;
+    border-right: 3px solid var(--primary-color); 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.title img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid var(--tertiary-color);
+    object-fit: fill;
+}
+.title h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--tertiary-color);
+    margin: 0;
+}
+.content {
+    flex: 0.8;
+}
+.content p { 
+    line-height: 1.8;
+    color: var(--primary-color);
+    width: 90%;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    flex: 0.8;
+}
+.project1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.5;
+    height: auto;
+    margin-left: 7%;
+}
+.project1 img {
+    max-height: 400px;
+    width: 100%;
+    border-radius: 10px;
+
+}
