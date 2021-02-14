@@ -107,5 +107,16 @@ header h1 {
     max-height: 400px;
     width: 100%;
     border-radius: 10px;
-
+}
+.project2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.4;
+    height: auto;
+    margin-left: 7%;
+}
+.project2 img{
+    max-height: 400px;
+    width: 100%;
+    border-radius: 10px;
 }
