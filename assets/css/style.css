@@ -48,7 +48,7 @@ header h1 {
     background-image: url("../images/seattle.jpg");
     background-size: cover;
     background-position: 80% 0%;
-    height: 480px;
+    height: 50vh;
 }
 .box {
     padding: 30px 40px;
