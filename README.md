@@ -19,4 +19,4 @@ Made with ❤️ by Zhypara Abdieva
 
 
 ## Sample
-![alt text](https://github.com/jypara-git/portfolio/blob/main/sample-screenshot.png)
+![alt text](https://github.com/jypara-git/portfolio/blob/main/assets/images/sample-screenshot.png)
