@@ -93,26 +93,38 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
     flex: 0.8;
 }
 .project1 {
-    display: flex;
     flex-wrap: wrap;
     flex: 0.5;
     height: auto;
     margin-left: 7%;
 }
-.project1 img {
+.image {
+    position: relative;
+}
+.image img {
     max-height: 400px;
     width: 100%;
     border-radius: 10px;
+    display: block;
 }
-.project1 img:hover {
+.image__overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
 
+.image__overlay:hover {
+    background-color: transparent;
 }
+
 .project2 {
-    display: flex;
     flex-wrap: wrap;
     flex: 0.4;
     height: auto;
