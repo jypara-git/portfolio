@@ -2,7 +2,7 @@
 
 
 ## Purpose
-A website that tells your a bit about who I am and showcases a few of my projects
+A website that tells you a bit about who I am and showcases a few of my projects
 
 ## Built With
 * HTML
