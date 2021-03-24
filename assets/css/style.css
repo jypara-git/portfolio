@@ -96,6 +96,7 @@ header h1 {
     margin: 0 auto;
     text-align: center;
 }
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -103,20 +104,26 @@ header h1 {
     flex: 0.8;
     justify-content: center;
     min-width: 600px;
+    align-items: center;
 }
-.project1 {
+.project {
     flex-wrap: wrap;
     flex: 0.5;
     height: auto;
     margin-left: 7%;
+    margin-bottom: 2%;
+}
+.project h2 {
+    margin-bottom: 15px;
 }
 .image {
     position: relative;
     min-width: 300px;
+    min-height: 100px;
 }
-.primary_image {
+/* .primary_image {
     min-width: 400px;
-}
+} */
 .image img {
     max-height: 400px;
     width: 100%;
@@ -137,17 +144,17 @@ header h1 {
     background-color: transparent;
 }
 
-.project2 {
+/* .project2 {
     flex-wrap: wrap;
     flex: 0.4;
     height: auto;
     margin-left: 7%;
-}
-.project2 img{
+} */
+/* .project2 img{
     max-height: 400px;
     width: 100%;
     border-radius: 10px;
-}
+} */
 .contact-box {
     display: flex;
     flex-wrap: wrap;
